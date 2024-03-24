@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 52, 112);
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+}
+
+.container h2{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+.container .sig{
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.8);
+    border-radius: 8px;
+
+}
+
+.container .welcome{
+
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .welcome img{
+    margin: auto;
+    width: 80px;
+}
+
+.form{
+    display: none;
+
+}
+
+.active{
+    display: block;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: blueviolet solid 2px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8spx rgba(37, 5, 65, 0.3);
+
+}
+
+button[type="submit"]{
+    background-color: blueviolet;
+
+}
+
+.copy{
+    color: blueviolet;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: auto;
+        margin: 30px;
+        padding: 10px;
+    }
+
+}
