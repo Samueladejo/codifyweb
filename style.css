@@ -214,6 +214,14 @@
       color: #04AA6D;
     }
 
+        .footer-contact{
+    background-color:
+    color:#ffffff;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+        }
+
     .services .title{
       background-color: #04AA6D;
       color: #fff;
